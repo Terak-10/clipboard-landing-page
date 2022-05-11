@@ -115,13 +115,16 @@ body {
   gap: 3rem;
   max-width: 65rem;
   margin: 0 auto;
-  padding: 0 3vw; }
+  padding: 0 3vw;
+  justify-content: center; }
   .supercharge-bottom_box {
     flex: 1;
     display: flex;
     align-items: center;
     flex-direction: column;
-    gap: 1rem; }
+    gap: 1rem;
+    min-width: 15rem;
+    max-width: 15rem; }
   .supercharge-bottom_box-2 {
     padding-top: 0.48rem; }
   .supercharge-bottom_h-3 {

@@ -125,6 +125,7 @@
     max-width: 65rem;
     margin: 0 auto;
     padding: 0 3vw;
+    justify-content: center;
 
     &_box {
         flex: 1;
@@ -132,6 +133,8 @@
         align-items: center;
         flex-direction: column;
         gap: 1rem;
+        min-width: 15rem;
+        max-width: 15rem;
     }
 
     &_box-2{
