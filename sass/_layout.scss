@@ -1,0 +1,41 @@
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    background: url(/images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.header {
+    min-height: 40rem;
+    padding: 7rem 0 3rem 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top-section {
+    min-height: 37rem;
+    background: url(/images/image-computer.png);
+    background-repeat: no-repeat;
+    background-position: left -40px top 0;
+    background-size: clamp(35rem, 52vw, 47rem);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+}
+
+
+.acces {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 38rem;
+    margin-bottom: 2rem;
+}
+
+.supercharge {
+    margin-bottom: 5rem;
+}
