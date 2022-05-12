@@ -1,5 +1,5 @@
 .container {
-    max-width: 1440px;
+    max-width: 90em;
     margin: 0 auto;
     background: url(/images/bg-header-desktop.png);
     background-repeat: no-repeat;
@@ -25,6 +25,16 @@
     justify-content: center;
     align-items: flex-start;
     margin-bottom: 2rem;
+
+
+    @media (max-width: 61.875em) {
+        background-position: top center;
+        background-size: clamp(25rem, 50vw, 55rem);
+    }
+
+    @media (max-width: 25em) {
+        background-size: clamp(15rem, 100vw, 55rem);
+    }
 }
 
 
@@ -32,10 +42,52 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    min-height: 38rem;
+    min-height: clamp(23rem, 95vw, 38rem);
     margin-bottom: 2rem;
 }
 
 .supercharge {
-    margin-bottom: 5rem;
+    margin-bottom: 8rem;
 }
+
+.logo-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7rem;
+    margin-bottom: 8rem;
+    flex-wrap: wrap;
+    padding: 0 3vw;
+}
+
+
+.clip {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 8rem;
+}
+
+ .footer {
+     min-height: 7rem;
+     max-width: 90em;
+     margin: 0 auto;
+     background-color: hsla(202, 11%, 66%, 0.136);
+
+     display: flex;
+     align-items: center;
+     padding: 5vw 7vw;
+     flex-wrap: wrap;
+     gap: 2.5rem;
+     
+     
+     @media (max-width: 48.5625em) {
+        justify-content: center;
+     }
+
+     @media (max-width: 32.5em) {
+        flex-direction: column;
+     }
+ }
